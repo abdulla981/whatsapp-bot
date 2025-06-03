@@ -27,3 +27,5 @@ def bot():
     reply = RESPONSE_MAP.get(incoming_msg, "👋 مرحبًا بك في مساعدك الذكي عبدالله! أرسل رقم الخدمة من 1 إلى 10.")
     msg.body(reply)
     return str(resp)
+
+app.run(host="0.0.0.0", port=3000)
