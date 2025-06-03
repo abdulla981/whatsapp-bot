@@ -28,4 +28,5 @@ def bot():
     msg.body(reply)
     return str(resp)
 
-app.run(host="0.0.0.0", port=3000)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=3000)
